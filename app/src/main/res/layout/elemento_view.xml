@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:background="@drawable/boton_redondo"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:paddingVertical="20dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tx_titulo"
+            android:text="Practice"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/colorTextoActividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tx_desc"
+                android:text="Everyday"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/colorTextoActividad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:id="@+id/tx_hora"
+            android:text="17:00"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/colorTextoActividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
